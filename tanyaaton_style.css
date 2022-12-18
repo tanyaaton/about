@@ -1,7 +1,6 @@
 
 body {
     font-family: 'Libre Baskerville', serif;
-    text-align: center;
     background-color: #236c55;
     /* background: linear-gradient(
         to right,
@@ -10,15 +9,14 @@ body {
     ); */
     color : #ffffff;
     margin: 30px;
-
-}
-#container > div {
+    padding: 20px;
     text-align: left;
-    padding-left: 20px;
 }
+
 #container {
     display : flex;
     flex-wrap: wrap;
+    padding-right: 20px;
 }
 header {
     text-align: left;
@@ -26,16 +24,22 @@ header {
     padding-bottom: 25px;
     border-bottom: 1px solid ;
     font-style: italic;
+    font-size: 50px;
 }
 
 h1 {
-    /* border-top: 5px solid #ffffff; */
+    /* border-bottom: 2px solid #ffffff; */
     font-weight: lighter;
     font-size: 100px;
     /* padding-bottom: 0px; */
 }
 
-p {
+h2 {
+    /* font-weight: lighter; */
+    font-size: 50px;
+}
+
+p, a, li {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
