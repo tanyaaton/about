@@ -10,7 +10,7 @@ body {
     color : #ffffff;
     margin: 30px;
     padding: 20px;
-    text-align: left;
+    /* text-align: left; */
 }
 
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-    /* font-weight: lighter; */
+    font-weight: lighter;
     font-size: 70px;
 }
 
@@ -51,3 +51,10 @@ p, a, li {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
