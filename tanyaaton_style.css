@@ -18,6 +18,7 @@ header {
     text-align: left;
     margin: 20px;
     padding-bottom: 25px;
+    /* border-bottom: 1px solid white; */
     font-style: italic;
     font-size: 50px;
 }
@@ -25,7 +26,7 @@ header {
 #container {
     display : flex;
     flex-wrap: wrap;
-    padding: 20px;
+    
 }
 
 /* #contact, #fav {
@@ -37,6 +38,7 @@ h1 {
     /* border-bottom: 2px solid #ffffff; */
     font-weight: lighter;
     font-size: 100px;
+    margin-right: 50px;
     /* padding-bottom: 0px; */
 }
 
