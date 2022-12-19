@@ -29,6 +29,12 @@ header {
     
 }
 
+#container > div{
+    width:200px;
+
+}
+
+
 /* #contact, #fav {
     background-color: #ffffff;
     color: #236c55; 
@@ -44,7 +50,7 @@ h1 {
 
 h2 {
     font-weight: lighter;
-    font-size: 70px;
+    font-size: 40px;
 }
 
 p, a, li {
@@ -52,9 +58,15 @@ p, a, li {
     font-size: 30px;
 }
 
+#middle {
+    text-align: center;
+    font-size: 20px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    border-radius: 40px;
+    /* max-width: 30%; */
   }
